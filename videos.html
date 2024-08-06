@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .navbar {
+            background-color: #333;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+        }
+
+        .navbar h1 {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 10px 20px;
+            display: inline-block;
+            transition: background-color 0.3s, color 0.3s;
+            border-radius: 4px;
+        }
+
+        .navbar a:hover {
+            background-color: #f0a500;
+            color: #fff;
+        }
+		video {
+		padding: 15px;
+		}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>mohganabi</h1>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="videos.html">Videos</a>
+        </div>
+    </div>
+	<h1>Videos:</h1>
+	<video width="320" height="240" controls>
+  <source src="boss.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+	</video>
+	<video width="320" height="240" controls>
+  <source src="swing.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+	</video>
+	<video width="320" height="240" controls>
+  <source src="paper fly.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+	</video>
+
+</body>
+</html>
